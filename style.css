@@ -1,0 +1,177 @@
+.mainimg {
+	width: 700px;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.social {
+	max-width: 100%;
+	height: auto;
+	width: 40px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	text-align: justify;
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	font-family: 'Lora';
+	line-height: 1.5;
+}
+footer div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    color: #4a4e56;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+h1 {
+	font-family: 'Frank Ruhl Libre';
+	font-size: 44pt;
+	text-align: center;
+	width: 700px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	color: #4a4e56;
+}
+li {
+	font-family: 'Spectral';
+	font-size: 15pt;
+}
+li a {
+	color: #808080;
+	text-decoration: none;
+}
+nav {
+    width: 700px;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	height: 60px;
+}
+header ul {
+    float: right;
+    margin-top: 10px;
+    text-align: right;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+header li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 1em;
+    text-align: right;
+}
+body {
+	background-image: url("/images/background_01.jpg");
+	background-attachment:fixed;
+	background-size: 100%;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: -20%;
+  width: 100%; /* Full width */
+  height: 120%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Card */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width: 200px;
+  height: 400px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.cardimg {
+  border-radius: 5px 5px 0 0;
+  height: 60%;
+  object-fit: cover;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  height: 40%
+}
+h4 {
+	height: 26px;
+}
+#cards {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
